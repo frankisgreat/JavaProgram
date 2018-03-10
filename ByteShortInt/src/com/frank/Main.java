@@ -20,5 +20,19 @@ public class Main {
         System.out.println("myNewShortValue = " + myNewShortValue);
         //long has a width of 64.
         long myLongValue = 100L;
+
+        //1. Create a byte variable and set it to any valid byte number
+        byte byteValue = 12;
+        System.out.println("Q1: "+ byteValue);
+        //2. ...short
+        short shortValue = 2666;
+        System.out.println("Q2:"+ shortValue);
+        //3. ... int
+        int intValue = 66666;
+        System.out.println("Q3:"+ intValue);
+        //4. Create a variable of type long and make it equeal to
+        //   5000 + 10 times the sum of the sum of the byte, plus the short plus the int.
+        long longValue = 5000L + 10L * (byteValue + shortValue + intValue);
+        System.out.println("Q4:"+ longValue);
     }
 }
